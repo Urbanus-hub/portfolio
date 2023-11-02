@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align:middle;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(151, 151, 184);
+}
+about-section {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin: 20px 0;
+  }
+
+.menu {
+    background-color: #16165e;
+    color: rgb(204, 212, 215);
+    padding: 0;
+}
+
+.menu a {
+    text-decoration:indigo;
+    color: rgb(176, 146, 171);
+    margin:0;
+}
+
+.menu-content, .support,.contact, .github,.about {
+    padding: 40px;
+    margin: 20px;
+    background-color:white;
+    border-radius:px;
+}
+
+.menu-content h2, .support h2,.contact h2, .github h2,.about h2  {
+    color: #333;
+}
+
+ .menu-content p, .support p,.contact p, .github p ,.about p{
+    color: #bda637;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-pic {
+    width: 150px;
+    align-items: center;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 5px;
+    display: circle;
+}
+
+.github a {
+    color: #0073e6;
+}
